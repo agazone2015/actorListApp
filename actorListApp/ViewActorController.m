@@ -1,17 +1,13 @@
 //
-//  ViewController.h
+//  ViewActorController.m
 //  actorListApp
 //
 //  Created by Chappie on 21/04/2015.
 //  Copyright (c) 2015 Chappie. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ViewActorController.h"
 
-@interface ViewController : UIViewController
-
-
-
+@implementation ViewActorController
 
 @end
-

@@ -15,6 +15,8 @@
 		845CA16B1AE5BD860023DC13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845CA16A1AE5BD860023DC13 /* Images.xcassets */; };
 		845CA16E1AE5BD860023DC13 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845CA16C1AE5BD860023DC13 /* LaunchScreen.xib */; };
 		845CA17A1AE5BD860023DC13 /* actorListAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845CA1791AE5BD860023DC13 /* actorListAppTests.m */; };
+		845CA1841AE5BE040023DC13 /* actors_list.txt in Resources */ = {isa = PBXBuildFile; fileRef = 845CA1831AE5BE040023DC13 /* actors_list.txt */; };
+		845CA1871AE5C7BB0023DC13 /* ViewActorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845CA1861AE5C7BB0023DC13 /* ViewActorController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,9 @@
 		845CA1731AE5BD860023DC13 /* actorListAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = actorListAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		845CA1781AE5BD860023DC13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		845CA1791AE5BD860023DC13 /* actorListAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = actorListAppTests.m; sourceTree = "<group>"; };
+		845CA1831AE5BE040023DC13 /* actors_list.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = actors_list.txt; sourceTree = "<group>"; };
+		845CA1851AE5C7BB0023DC13 /* ViewActorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewActorController.h; sourceTree = "<group>"; };
+		845CA1861AE5C7BB0023DC13 /* ViewActorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewActorController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +92,12 @@
 				845CA15F1AE5BD860023DC13 /* AppDelegate.m */,
 				845CA1641AE5BD860023DC13 /* ViewController.h */,
 				845CA1651AE5BD860023DC13 /* ViewController.m */,
+				845CA1851AE5C7BB0023DC13 /* ViewActorController.h */,
+				845CA1861AE5C7BB0023DC13 /* ViewActorController.m */,
 				845CA1671AE5BD860023DC13 /* Main.storyboard */,
 				845CA16A1AE5BD860023DC13 /* Images.xcassets */,
 				845CA16C1AE5BD860023DC13 /* LaunchScreen.xib */,
+				845CA1831AE5BE040023DC13 /* actors_list.txt */,
 				845CA1611AE5BD860023DC13 /* actorListApp.xcdatamodeld */,
 				845CA15A1AE5BD860023DC13 /* Supporting Files */,
 			);
@@ -202,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845CA1841AE5BE040023DC13 /* actors_list.txt in Resources */,
 				845CA1691AE5BD860023DC13 /* Main.storyboard in Resources */,
 				845CA16E1AE5BD860023DC13 /* LaunchScreen.xib in Resources */,
 				845CA16B1AE5BD860023DC13 /* Images.xcassets in Resources */,
@@ -223,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				845CA1601AE5BD860023DC13 /* AppDelegate.m in Sources */,
+				845CA1871AE5C7BB0023DC13 /* ViewActorController.m in Sources */,
 				845CA15D1AE5BD860023DC13 /* main.m in Sources */,
 				845CA1661AE5BD860023DC13 /* ViewController.m in Sources */,
 				845CA1631AE5BD860023DC13 /* actorListApp.xcdatamodeld in Sources */,
